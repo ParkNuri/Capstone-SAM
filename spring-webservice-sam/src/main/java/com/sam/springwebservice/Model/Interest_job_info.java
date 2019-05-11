@@ -17,7 +17,6 @@ import lombok.*;
 @Table(name = "interest_job_info")
 public class Interest_job_info {
 
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private String interest_job_ID = ""; //관심 직무
